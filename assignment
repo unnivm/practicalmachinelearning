@@ -1,0 +1,15 @@
+
+ We need to download the training and testing data files. It is a .csv type
+ 
+ Now read these two files using read.csv method
+ 
+ Then we are not removing columns that are null. We need to load the caret library
+ Find the correlation matrix and create testing and training data. I used train method to
+ get the results and called the print method. This will print the maximum possible usages of the users
+ how they perform the exercise. In order to do prove these values are correct, we need to use predict using
+ random forest method.
+ 
+ load RandomForest libray to find the best predictions.
+ 
+ I used OOB(out-of-bag) to find the prediction on training data and testing data. I got a value is 0.992
+  
